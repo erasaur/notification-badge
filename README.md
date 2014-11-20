@@ -1,7 +1,7 @@
 Meteor Notification Badge
 =========================
 
-Simple, Animated Notification Badge Template for Meteor
+![Screenshot](/screenshot.png) Simple, Animated Notification Badge Template for Meteor
 
 ##Usage
 
