@@ -1,4 +1,4 @@
-Meteor Notification Badge ![Screenshot](/screenshot.png)
+Meteor Notification Badge ![Screenshot](https://raw.githubusercontent.com/erasaur/notification-badge/master/screenshot.png)
 =========================
 
 Simple, Animated Notification Badge Template for Meteor
