@@ -1,7 +1,7 @@
 .notification-container {
   position: relative;
 }
-.notification-count {
+.notification-badge {
   position: absolute; 
   display: block;
   top: -8px; 
