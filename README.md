@@ -7,7 +7,7 @@ Simple, Animated Notification Badge Template for Meteor
 
 The animated badge can be declared in two different ways, both of which require a single `count` parameter.
 
-1. With a template inclusion helper:
+With a template inclusion helper:
 
 ```javascript
 // Pass in the count to be displayed
@@ -17,7 +17,7 @@ The animated badge can be declared in two different ways, both of which require 
 {{/notificationBadge}}
 ```
 
-2. As a regular template:
+Or as a regular template:
 
 ```javascript
 // Because the badge is absolutely positioned, make sure it goes

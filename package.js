@@ -1,7 +1,7 @@
 Package.describe({
   name: 'erasaur:notification-badge',
   summary: 'Simple, Animated Notification Badge Template for Meteor',
-  version: '0.0.0',
+  version: '0.0.1',
   git: 'https://github.com/erasaur/notification-badge'
 });
 
