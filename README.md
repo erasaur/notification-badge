@@ -1,7 +1,7 @@
-Meteor Notification Badge
+Meteor Notification Badge ![Screenshot](/screenshot.png)
 =========================
 
-![Screenshot](/screenshot.png) Simple, Animated Notification Badge Template for Meteor
+Simple, Animated Notification Badge Template for Meteor
 
 ##Usage
 
