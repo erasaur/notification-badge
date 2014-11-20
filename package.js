@@ -6,12 +6,12 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9');
+  api.versionsFrom('METEOR@0.9.1');
   api.use(['templating', 'jquery'], 'client');
 
   api.addFiles([
-    'lib/notification-badge.js', 
     'lib/notification-badge.html', 
+    'lib/notification-badge.js', 
     'lib/notification-badge.css'
   ], ['client']);
 });

@@ -1,5 +1,6 @@
 .notification-container {
   position: relative;
+  display: inline-block;
 }
 .notification-badge {
   position: absolute; 
