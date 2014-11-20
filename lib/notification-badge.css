@@ -1,8 +1,11 @@
+.notification-container {
+  position: relative;
+}
 .notification-count {
-  display: block;
   position: absolute; 
-  top: 5px; 
-  right: 3px; 
+  display: block;
+  top: -8px; 
+  right: -10px; 
   width: 16px;
   height: 16px;
   line-height: 16px;

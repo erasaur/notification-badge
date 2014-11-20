@@ -1,4 +1,6 @@
 <template name="notificationBadge">
-  {{> Template.contentBlock}}
-  <span class="notification-count">{{count}}</span>
+  <div style="notification-container {{class}}">
+    {{> Template.contentBlock}}
+    <span class="notification-count">{{count}}</span>
+  </div>
 </template>
