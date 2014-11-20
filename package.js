@@ -6,12 +6,18 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.0');
-  api.addFiles('lib/erasaur:notification-badge.js');
+  api.versionsFrom('METEOR@0.9');
+  api.use(['templating', 'jquery'], 'client');
+
+  api.addFiles([
+    'lib/notification-badge.js', 
+    'lib/notification-badge.html', 
+    'lib/notification-badge.css'
+  ], ['client']);
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('erasaur:notification-badge');
-  api.addFiles('tests/erasaur:notification-badge-tests.js');
+  api.addFiles('tests/notification-badge-tests.js');
 });
