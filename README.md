@@ -10,10 +10,8 @@ The animated badge can be declared in two different ways, both of which require 
 With a template inclusion helper:
 
 ```javascript
-// Pass in the count to be displayed
 {{#notificationBadge count=notifications.count}}
   <i class="fa fa-lightbulb-o fa-lg"></i>
-  // Other custom html...
 {{/notificationBadge}}
 ```
 
